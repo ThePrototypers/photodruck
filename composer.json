@@ -1,0 +1,30 @@
+{
+    "name": "prototypers/photodruck",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Robin Verton",
+            "email": "robin@theprototypers.de",
+            "homepage": "https://theprototypers.de"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prototypers\\PhotoDruck\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Prototypers\\PhotoDruck\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    }
+}
